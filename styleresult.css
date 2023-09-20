@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("imagem/fundo.jpg");
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.container > h2{
+    font-size: 2rem;
+    border-bottom: 1px solid black;
+}
+
+.container > a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: red;
+}
